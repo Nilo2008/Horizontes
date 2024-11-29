@@ -1,0 +1,418 @@
+body{
+	margin: 0;
+	background-color:#E5F2FF
+}
+
+header{
+	width: 100%;
+	height: auto;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:#99ccff;
+}
+
+
+nav{
+	display:flex;
+	width:70%;
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+}
+
+nav a:link, nav a:visited{
+	width:20%;
+	height:30px;
+	text-decoration:none;
+	font-family:arial, tahoma, sans-serif;
+	font-weight:bold;
+	color:white;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	transition:all 1s
+}
+
+nav a:hover{
+	color:white;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+main{ 
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:column; 
+	align-items:center;
+}
+
+.ejem{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+	margin-top:2%;
+}
+
+.productos{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	border-bottom-style:solid;
+	border-width:2px;
+}
+.imga{
+	display:flex;
+	margin-left:5%;
+	box-shadow:2px 2px 5px #000000;
+}
+
+.info2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction:column;
+	text-align:justify;
+	justify-content:center;
+	align-items:center;
+	margin:5%
+}
+
+
+button {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+h1{
+	font-family: Cambria, Italic, Bold Italic;
+}
+
+h2{
+	font-family: Cambria, Italic, Bold Italic;
+}
+
+p{
+	font-family: Arial, Verdana, sans-serif;
+	line-height:1.5;
+	text-align:	justify;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color:#99ccff;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.logof{
+	display:flex;
+	width:25%;
+	height:auto;
+	justify-content: center;
+}
+
+.info{
+	display:flex;
+	width:50%;
+	justify-content: space-around;
+}
+
+.iconos{
+	display:flex;
+	width:25%;
+	justify-content: center;
+	align-items:center;
+}
+
+.tour{
+	display:flex;
+	width:100%;
+	flex-direction: column;
+    align-items: center;
+	margin-bottom:20px;
+}
+
+.tourimg{
+	width:100%;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.tourimg img{
+	width:100%;
+}
+
+.tourtext{
+	width:75%;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	text-align:	justify;
+}
+
+.bienvenida{
+	width:75%;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	text-align:	center;
+}
+
+.contenedor{
+	display:flex;
+	flex-wrap:nowrap;
+	margin-bottom:3%;
+	margin-top:3%;
+}
+
+.img{
+	display:flex;
+	justify-content:center;
+}
+
+.img img{
+	width:50%;
+}
+
+.tipo1{
+	border-style:solid;
+	border-width:5px;
+	border-color:#CD7F32;
+}
+
+.tipo2{
+	border-style:solid;
+	border-width:5px;
+	border-color:#C0C0C0;
+}
+
+.tipo3{
+	border-style:solid;
+	border-width:5px;
+	border-color:#D4AF37;
+}
+
+.Nosotros img{
+	width:50%;
+}
+
+.Nosotros{
+	display:flex;
+	margin:2%;
+	flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+	text-align:	justify;
+}
+
+script{
+	font-family:arial, tahoma, sans-serif;
+}
+
+.image{
+	display:flex;
+	justify-content:center;
+}
+
+.image img{
+	width:75%;
+	border-style:solid;
+	border-width:5px;
+	border-color:#C0C0C0;
+}
+
+.tema{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.tema h2{
+	display:flex;
+	justify-content:center;
+}
+
+.hotel{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+.hotel img{
+	width:100%;
+	height:60vh;
+	border-right-style:solid;
+	border-left-style:solid;
+	border-width:5px;
+	border-color:#C0C0C0;
+}
+
+.contenedor2{
+	display:flex;
+	align-items:flex-start;
+	flex-wrap:nowrap;
+	margin-bottom:3%;
+}
+        .calendar {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .calendar h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .calendar-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .calendar-table th,
+        .calendar-table td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .calendar-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .event {
+            background-color: #f0f8ff;
+            cursor: pointer;
+        }
+        .event:hover {
+            background-color: #add8e6;
+        }
+        .no-event {
+            background-color: #f9f9f9;
+        }
+        .event-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .event-popup button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .event-popup button:hover {
+            background-color: #45a049;
+        }
+
+@media screen and (max-width:900px)
+{
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+	height:auto;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+   nav {
+	width: 100%;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a:link, nav a:visited {
+    width: auto; 
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px; 
+  }
+
+
+  .logo {
+    width: 50%;
+  }
+
+  .logo img {
+    width: 60%;
+  }
+
+
+  main {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .logof {
+    width: 50%;
+  }
+  
+  video {
+  width:600px;
+  height:400px;
+}
+
+.productos{
+	flex-direction: column;
+}
+
+}
